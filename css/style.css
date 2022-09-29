@@ -33,6 +33,10 @@ nav{
     text-decoration: none;
     color: aliceblue;
 }
+.navBar li a:hover{
+    color: rgb(137, 159, 175);
+    text-decoration: underline;
+}
 .banner{
     background-image: url(../imagenes/Diseño\ \(1\).jpg);
     height: 60vh;
@@ -89,6 +93,10 @@ nav{
 .footerNav li a{
     text-decoration: none;
     color: aliceblue;
+}
+.footerNav li a:hover{
+    color: rgb(96, 54, 95);
+    text-decoration:underline;
 }
 .tituloNav{
     color: black;
