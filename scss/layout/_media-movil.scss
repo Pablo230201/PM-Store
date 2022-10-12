@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px){
+    .navBar{
+        display: flex;
+        justify-content:center;
+        column-gap: 20px;
+        font-size: 20px;
+    }
+    .banner{
+        background-image: url(../imagenes/DiseñoMovil.jpg);
+        height: 30vh;
+        background-position:center;
+    }
+    .tituloDescripcion{
+        background-image: linear-gradient(rgb(37, 18, 84),rgba(0, 27, 29, 0.508));
+        padding: 0.4;
+    }
+    .tituloDescripcion div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items:left;
+        font-size:15px;
+        text-align:left;
+    }
+    .tituloDescripcion div p{
+        border: 1px solid black;
+    }
+    .footerNav{
+        background-color: rgba(21, 0, 255, 0.705);
+        color: aliceblue;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        justify-items: center;
+        align-items: stretch;
+    }
+    .productos figure div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-row-gap: 5px;
+    }
+    .galeria figure{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-row-gap: 5px;
+    }
+    .ubicacion iframe{
+        display: flex;
+        width: 400px;
+        height: 400px;
+    }
+}

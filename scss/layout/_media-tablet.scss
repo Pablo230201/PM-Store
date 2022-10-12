@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) and (min-width:481px){
+    .banner{
+        background-image: url(../imagenes/Diseñotablet.jpg);
+        height: 50vh;
+        background-position:center;
+    }
+    .productos figure div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-row-gap: 5px;
+    }
+    .galeria figure{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-row-gap: 5px;
+    }
+} 

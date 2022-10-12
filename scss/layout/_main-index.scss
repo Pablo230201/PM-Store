@@ -1,0 +1,40 @@
+.banner{
+    background-image: url(../imagenes/Diseño-1.jpg);
+    height: 60vh;
+    background-position:center;
+}
+.tituloDescripcion{
+    background-image: linear-gradient(rgb(37, 18, 84),rgba(0, 27, 29, 0.508));
+    padding: 10px;
+    h2{
+        text-align: center;
+        font-size: 40px;
+        margin: 10px;
+        &:hover{
+            transform: scale(1.2, 1.2);
+            text-decoration:underline ;
+            transition: 2s
+        }
+    }
+    div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+.tituloContacto{
+    background-image: linear-gradient( lightseagreen, lightblue);
+    h2{
+        text-align: center;
+        font-size: 40px;
+        text-decoration:underline;
+    }
+}
+.textocontacto{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}

@@ -1,0 +1,31 @@
+.footerNav{
+    background-color:  lightblue;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-items: center;
+    align-items: stretch;
+    li{
+        list-style: none;
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: rgb(96, 54, 95);
+            text-decoration:underline;
+        }
+    }
+    ul{
+        text-align: center;
+        padding: 50px;
+    }
+}
+.tituloNav{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:underline;
+}

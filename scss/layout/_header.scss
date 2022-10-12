@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(15, 14, 74, 0.404);
+    position: fixed;
+    .logo:hover{
+        transform: scale(1.4, 1.4);
+        transition: 1s;
+    }
+    nav{
+        width: 90%;
+    }
+}
+.navBar{
+    display: flex;
+    justify-content: end;
+    column-gap: 30px;
+    font-size: 26px;
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+        &:hover{
+            color: rgb(137, 159, 175);
+            text-decoration: underline;
+        }
+    }
+}

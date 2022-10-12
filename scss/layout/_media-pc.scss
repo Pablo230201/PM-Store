@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px) and (min-width:769spx){
+    .header{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        background-color: rgba(15, 14, 74, 0.404);
+        position: fixed;
+    }
+    .banner{
+        background-image: url(../imagenes/Diseño-1.jpg);
+        height: 60vh;
+        background-position:center;
+    }
+}

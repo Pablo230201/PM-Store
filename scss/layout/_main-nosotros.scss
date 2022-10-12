@@ -1,0 +1,25 @@
+.nosotros{
+    background-color: rgba(155, 119, 52, 0.686);
+    padding: 50px;
+    h1{
+        text-align: center;
+        font-size: 40px;
+        &:hover{
+            transform: scale(1.2, 1.2);
+            text-decoration:underline ;
+            transition: 2s
+        }
+    }
+}
+.textonosotros{
+    text-align: center;
+    font-size: 15px;
+}
+.ubicacion h1{
+    text-align: center;
+    font-size: 40px;
+    iframe{
+        display: flex;
+        margin: auto;
+    }
+}
