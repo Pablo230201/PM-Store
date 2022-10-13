@@ -3,17 +3,14 @@
     padding: 10px;
     h1{
         text-align: center;
-        font-size: 40px;
+        font-size: $font-size;
         &:hover{
             transform: scale(1.2, 1.2);
             text-decoration:underline ;
             transition: 2s
         }
         figure{
-            display: grid;
-            grid-template-columns: repeat(3,2fr);
-            justify-items: center;
-            align-items: center;
+            @include Propiedad-grid (repeat(3, 2fr), center, center);
             grid-row-gap: 30px;
         }
     }

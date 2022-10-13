@@ -3,7 +3,7 @@
     padding: 50px;
     h1{
         text-align: center;
-        font-size: 40px;
+        font-size: $font-size;
         &:hover{
             transform: scale(1.2, 1.2);
             text-decoration:underline ;
@@ -17,9 +17,9 @@
 }
 .ubicacion h1{
     text-align: center;
-    font-size: 40px;
-    iframe{
-        display: flex;
-        margin: auto;
-    }
+    font-size: $font-size;
+}
+.mapa{
+    display: flex;
+    margin: auto;
 }

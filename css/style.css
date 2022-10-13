@@ -155,9 +155,10 @@
 .ubicacion h1 {
   text-align: center;
   font-size: 40px; }
-  .ubicacion h1 iframe {
-    display: flex;
-    margin: auto; }
+
+.mapa {
+  display: flex;
+  margin: auto; }
 
 .paginacontacto {
   background-color: #cdaaaa; }

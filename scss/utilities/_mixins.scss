@@ -1,0 +1,11 @@
+@mixin Propiedad-grid ($colums, $justify, $aling) {
+    display: grid;
+    grid-template-columns: $colums;
+    justify-items: $justify;
+    align-items: $aling;
+}
+@mixin Propiedad-flex ($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}

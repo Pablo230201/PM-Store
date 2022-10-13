@@ -2,10 +2,7 @@
     background-color:  lightblue;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    justify-items: center;
-    align-items: stretch;
+    @include Propiedad-grid (repeat(3, 1fr), center, stretch);
     li{
         list-style: none;
         padding: 10px;

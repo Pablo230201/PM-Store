@@ -3,7 +3,7 @@
     padding: 10px;
     h1{
         text-align: center;
-        font-size: 40px;
+        font-size: $font-size;
         color: aliceblue;
         &:hover{
             transform: scale(1.2, 1.2);
@@ -16,9 +16,7 @@
         color: aliceblue;
     }
     figure div{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
+        @include Propiedad-flex (row, space-around);
     }
 }
 .joysticks{

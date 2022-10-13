@@ -2,7 +2,7 @@
     background-color: rgb(205, 170, 170);
     h1{
         text-align: center;
-        font-size: 40px;
+        font-size: $font-size;
         &:hover{
             transform: scale(1.2, 1.2);
             text-decoration:underline ;
