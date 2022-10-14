@@ -8,36 +8,49 @@
 * {
   font-family: "Loto"; }
 
-.header {
+.nav {
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: rgba(15, 14, 74, 0.404);
+  background-color: rgba(15, 14, 74, 0.675);
   position: fixed; }
-  .header .logo:hover {
-    transform: scale(1.4, 1.4);
-    transition: 1s; }
-  .header nav {
-    width: 90%; }
 
-.navBar {
+.nav-container {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo:hover {
+  transform: scale(1.4, 1.4);
+  transition: 1s; }
+
+.nav-menu ul {
   display: flex;
   justify-content: end;
   column-gap: 30px;
-  font-size: 26px; }
-  .navBar li {
+  font-size: 30px; }
+  .nav-menu ul li {
     list-style: none; }
-  .navBar a {
+  .nav-menu ul a {
     text-decoration: none;
-    color: aliceblue; }
-    .navBar a:hover {
+    color: white;
+    font-size: 24px; }
+    .nav-menu ul a:hover {
       color: #899faf;
       text-decoration: underline; }
+
+.nav-label, .nav-input {
+  display: none; }
 
 .banner {
   background-image: url(../imagenes/Diseño-1.jpg);
   height: 60vh;
   background-position: center; }
+  .banner h2 {
+    color: rgba(250, 235, 215, 0); }
 
 .tituloDescripcion {
   background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508));
@@ -176,13 +189,30 @@
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .formulario li {
+    padding: 6px; }
 
 @media screen and (max-width: 480px) {
-  .navBar {
+  .nav-label {
+    display: block;
+    cursor: pointer; }
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    left: 0;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out; }
+  .nav-menu ul {
     display: flex;
-    justify-content: center;
-    column-gap: 20px;
-    font-size: 20px; }
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 500px; }
+  .nav-input:checked + .nav-menu {
+    clip-path: circle(100% at center); }
   .banner {
     background-image: url(../imagenes/DiseñoMovil.jpg);
     height: 30vh;
@@ -224,6 +254,26 @@
     height: 400px; } }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
+  .nav-label {
+    display: block;
+    cursor: pointer; }
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    left: 0;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out; }
+  .nav-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 500px; }
+  .nav-input:checked + .nav-menu {
+    clip-path: circle(100% at center); }
   .banner {
     background-image: url(../imagenes/Diseñotablet.jpg);
     height: 50vh;

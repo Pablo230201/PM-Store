@@ -1,4 +1,28 @@
 @media screen and (max-width: 768px) and (min-width:481px){
+    .nav-label{
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu{
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.87);
+        width: 100%;
+        left: 0;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+    }
+    .nav-menu ul{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+    }
+    .nav-input:checked + .nav-menu{
+        clip-path: circle(100% at center);
+    }
     .banner{
         background-image: url(../imagenes/Diseñotablet.jpg);
         height: 50vh;

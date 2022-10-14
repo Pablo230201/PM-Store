@@ -1,31 +1,40 @@
-.header{
+.nav{
     display: flex;
     width: 100%;
     padding: 20px;
-    background-color: rgba(15, 14, 74, 0.404);
+    background-color: rgba(15, 14, 74, 0.675);
     position: fixed;
-    .logo:hover{
-        transform: scale(1.4, 1.4);
-        transition: 1s;
-    }
-    nav{
-        width: 90%;
-    }
 }
-.navBar{
+.nav-container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo:hover {
+    transform: scale(1.4, 1.4);
+    transition: 1s; 
+}
+.nav-menu ul{
     display: flex;
     justify-content: end;
     column-gap: 30px;
-    font-size: 26px;
+    font-size: 30px;
     li{
         list-style: none;
     }
     a{
         text-decoration: none;
-        color: aliceblue;
+        color: white;
+        font-size: 24px;
         &:hover{
-            color: rgb(137, 159, 175);
-            text-decoration: underline;
+            color: #899faf;
+    text-decoration: underline;
         }
     }
+}
+.nav-label, .nav-input{
+    display: none;
 }
