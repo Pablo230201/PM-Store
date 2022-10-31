@@ -63,16 +63,18 @@
       transform: scale(1.2, 1.2);
       text-decoration: underline;
       transition: 2s; }
-  .tituloDescripcion div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
-    font-size: 25px;
-    text-align: center; }
+
+.grid-inicio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center; }
 
 .tituloContacto {
-  background-image: linear-gradient(lightseagreen, lightblue); }
+  background-image: linear-gradient(lightseagreen, lightblue);
+  padding: 50px; }
   .tituloContacto h2 {
     text-align: center;
     font-size: 40px;
@@ -82,6 +84,10 @@
   text-align: center;
   font-size: 25px;
   padding: 20px; }
+
+.img-inicio {
+  width: 100%;
+  max-width: 500px; }
 
 .footerNav {
   background-color: lightblue;
@@ -133,6 +139,10 @@
   text-align: right;
   width: 90%; }
 
+.img-uni {
+  width: 100%;
+  max-width: 400px; }
+
 .galeria {
   background-color: rgba(0, 8, 255, 0.659);
   padding: 10px; }
@@ -170,6 +180,8 @@
   font-size: 40px; }
 
 .mapa {
+  width: 100%;
+  max-width: 800px;
   display: flex;
   margin: auto; }
 
@@ -215,7 +227,7 @@
     clip-path: circle(100% at center); }
   .banner {
     background-image: url(../imagenes/DiseñoMovil.jpg);
-    height: 30vh;
+    height: 20vh;
     background-position: center; }
   .tituloDescripcion {
     background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508));
@@ -251,7 +263,10 @@
   .ubicacion iframe {
     display: flex;
     width: 400px;
-    height: 400px; } }
+    height: 400px; }
+  .mapa {
+    width: 100%;
+    max-width: 250px; } }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
   .nav-label {
@@ -276,7 +291,7 @@
     clip-path: circle(100% at center); }
   .banner {
     background-image: url(../imagenes/Diseñotablet.jpg);
-    height: 50vh;
+    height: 30vh;
     background-position: center; }
   .productos figure div {
     display: grid;
@@ -286,10 +301,14 @@
     grid-row-gap: 5px; }
   .galeria figure {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    grid-row-gap: 5px; } }
+    grid-column-gap: 5px;
+    grid-row-gap: 10px; }
+  .mapa {
+    width: 100%;
+    max-width: 500px; } }
 
 @media screen and (max-width: 1200px) and (min-width: 769spx) {
   .header {

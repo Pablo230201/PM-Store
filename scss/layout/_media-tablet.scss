@@ -25,7 +25,7 @@
     }
     .banner{
         background-image: url(../imagenes/Diseñotablet.jpg);
-        height: 50vh;
+        height: 30vh;
         background-position:center;
     }
     .productos figure div{
@@ -37,9 +37,14 @@
     }
     .galeria figure{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         align-items: center;
-        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+        grid-row-gap: 10px;
+    }
+    .mapa{
+        width: 100%;
+        max-width: 500px;
     }
 } 

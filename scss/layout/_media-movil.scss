@@ -25,7 +25,7 @@
     }
     .banner{
         background-image: url(../imagenes/DiseñoMovil.jpg);
-        height: 30vh;
+        height: 20vh;
         background-position:center;
     }
     .tituloDescripcion{
@@ -69,5 +69,9 @@
         display: flex;
         width: 400px;
         height: 400px;
+    }
+    .mapa{
+        width: 100%;
+        max-width: 250px;
     }
 }

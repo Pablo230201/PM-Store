@@ -20,6 +20,8 @@
     font-size: $font-size;
 }
 .mapa{
+    width: 100%;
+    max-width: 800px;
     display: flex;
     margin: auto;
 }
