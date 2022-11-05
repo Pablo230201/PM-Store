@@ -36,15 +36,21 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         justify-items:left;
-        font-size:15px;
+        font-size: 17px;
         text-align:left;
     }
-    .tituloDescripcion div p{
-        border: 1px solid black;
+    .img-inicio-movil{
+        display: flex;
+        width: 100%;
+        max-width: 400px;
+    }
+    .img-inicio-1{
+        display: none;
+    }
+    .textocontacto{
+        font-size: 20px;
     }
     .footerNav{
-        background-color: rgba(21, 0, 255, 0.705);
-        color: aliceblue;
         font-size: 20px;
         display: grid;
         grid-template-columns:repeat(1,1fr);
@@ -69,6 +75,9 @@
         display: flex;
         width: 400px;
         height: 400px;
+    }
+    .textonosotros{
+        font-size: 17px;
     }
     .mapa{
         width: 100%;

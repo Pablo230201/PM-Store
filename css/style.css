@@ -73,7 +73,7 @@
   text-align: center; }
 
 .tituloContacto {
-  background-image: linear-gradient(lightseagreen, lightblue);
+  background-image: linear-gradient(rgba(0, 27, 29, 0.508), #adbfe6);
   padding: 50px; }
   .tituloContacto h2 {
     text-align: center;
@@ -89,8 +89,15 @@
   width: 100%;
   max-width: 500px; }
 
+.img-inicio-1 {
+  width: 100%;
+  max-width: 500px; }
+
+.img-inicio-movil {
+  display: none; }
+
 .footerNav {
-  background-color: lightblue;
+  background-color: #adbfe6;
   color: black;
   font-size: 20px;
   display: grid;
@@ -117,19 +124,17 @@
   text-decoration: underline; }
 
 .productos {
-  background-color: black;
+  background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508));
   padding: 10px; }
   .productos h1 {
     text-align: center;
-    font-size: 40px;
-    color: aliceblue; }
+    font-size: 40px; }
     .productos h1:hover {
       transform: scale(1.2, 1.2);
       text-decoration: underline;
       transition: 2s; }
   .productos h2 {
-    font-size: 30px;
-    color: aliceblue; }
+    font-size: 30px; }
   .productos figure div {
     display: flex;
     flex-direction: row;
@@ -161,7 +166,7 @@
       grid-row-gap: 30px; }
 
 .nosotros {
-  background-color: rgba(155, 119, 52, 0.686);
+  background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508));
   padding: 50px; }
   .nosotros h1 {
     text-align: center;
@@ -173,7 +178,7 @@
 
 .textonosotros {
   text-align: center;
-  font-size: 15px; }
+  font-size: 17px; }
 
 .ubicacion h1 {
   text-align: center;
@@ -186,7 +191,7 @@
   margin: auto; }
 
 .paginacontacto {
-  background-color: #cdaaaa; }
+  background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508)); }
   .paginacontacto h1 {
     text-align: center;
     font-size: 40px; }
@@ -196,7 +201,6 @@
       transition: 2s; }
 
 .formulario {
-  background-color: #cab090;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -236,13 +240,17 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: left;
-    font-size: 15px;
+    font-size: 17px;
     text-align: left; }
-  .tituloDescripcion div p {
-    border: 1px solid black; }
+  .img-inicio-movil {
+    display: flex;
+    width: 100%;
+    max-width: 400px; }
+  .img-inicio-1 {
+    display: none; }
+  .textocontacto {
+    font-size: 20px; }
   .footerNav {
-    background-color: rgba(21, 0, 255, 0.705);
-    color: aliceblue;
     font-size: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -264,6 +272,8 @@
     display: flex;
     width: 400px;
     height: 400px; }
+  .textonosotros {
+    font-size: 17px; }
   .mapa {
     width: 100%;
     max-width: 250px; } }

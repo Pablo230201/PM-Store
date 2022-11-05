@@ -26,7 +26,7 @@
     text-align: center;
 }
 .tituloContacto{
-    background-image: linear-gradient( lightseagreen, lightblue);
+    background-image: linear-gradient( rgba(0, 27, 29, 0.508), rgb(173, 191, 230));
     padding: 50px;
     h2{
         text-align: center;
@@ -42,4 +42,11 @@
 .img-inicio{
     width: 100%;
     max-width: 500px;
+}
+.img-inicio-1{
+    width: 100%;
+    max-width: 500px;
+}
+.img-inicio-movil{
+    display: none;
 }

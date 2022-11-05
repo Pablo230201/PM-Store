@@ -1,10 +1,9 @@
 .productos {
-    background-color: black;
+    background-image: linear-gradient(rgb(37, 18, 84),rgba(0, 27, 29, 0.508));
     padding: 10px;
     h1{
         text-align: center;
         font-size: $font-size;
-        color: aliceblue;
         &:hover{
             transform: scale(1.2, 1.2);
             text-decoration:underline ;
@@ -13,7 +12,6 @@
     }
     h2{
         font-size: 30px;
-        color: aliceblue;
     }
     figure div{
         @include Propiedad-flex (row, space-around);
