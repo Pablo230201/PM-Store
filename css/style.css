@@ -53,7 +53,7 @@
     color: rgba(250, 235, 215, 0); }
 
 .tituloDescripcion {
-  background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508));
+  background-image: linear-gradient(#46317a, rgba(0, 27, 29, 0.508));
   padding: 10px; }
   .tituloDescripcion h2 {
     text-align: center;
@@ -124,7 +124,7 @@
   text-decoration: underline; }
 
 .productos {
-  background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508));
+  background-image: linear-gradient(#46317a, rgba(0, 27, 29, 0.508));
   padding: 10px; }
   .productos h1 {
     text-align: center;
@@ -149,7 +149,7 @@
   max-width: 400px; }
 
 .galeria {
-  background-color: rgba(0, 8, 255, 0.659);
+  background-image: linear-gradient(#46317a, rgba(0, 27, 29, 0.508));
   padding: 10px; }
   .galeria h1 {
     text-align: center;
@@ -166,7 +166,7 @@
       grid-row-gap: 30px; }
 
 .nosotros {
-  background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508));
+  background-image: linear-gradient(#46317a, rgba(0, 27, 29, 0.508));
   padding: 50px; }
   .nosotros h1 {
     text-align: center;
@@ -191,7 +191,7 @@
   margin: auto; }
 
 .paginacontacto {
-  background-image: linear-gradient(#251254, rgba(0, 27, 29, 0.508)); }
+  background-image: linear-gradient(#46317a, rgba(0, 27, 29, 0.508)); }
   .paginacontacto h1 {
     text-align: center;
     font-size: 40px; }
@@ -276,7 +276,7 @@
     font-size: 17px; }
   .mapa {
     width: 100%;
-    max-width: 250px; } }
+    max-width: 200px; } }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
   .nav-label {
