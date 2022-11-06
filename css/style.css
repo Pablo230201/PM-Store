@@ -276,7 +276,7 @@
     font-size: 17px; }
   .mapa {
     width: 100%;
-    max-width: 200px; } }
+    max-width: 250px; } }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
   .nav-label {
